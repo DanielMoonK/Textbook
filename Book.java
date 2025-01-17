@@ -11,6 +11,10 @@ public class Book{
         return title;
     }
 
+    public double getPrice(){
+        return price;
+    }
+
     public String getBookInfo(){
         return title + "-" + price;
     }
